@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+    ubuntu:
+        image: "ubuntu"
+        volumes:
+            - ./mnt/1:/mnt/1
+            - ./mnt/2:/mnt/2
+            - ./mnt/3:/mnt/3
+        stdin_open: true
+        tty: true
+
